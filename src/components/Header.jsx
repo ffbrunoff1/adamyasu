@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, BookOpen, Star, User } from 'lucide-react';
-
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -13,7 +11,6 @@ export default function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   const scrollToSection = sectionId => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -21,13 +18,11 @@ export default function Header() {
     }
     setIsMobileMenuOpen(false);
   };
-
   const menuItems = [
     { icon: User, label: 'Sobre', section: 'about' },
     { icon: BookOpen, label: 'Livro', section: 'services' },
     { icon: Star, label: 'Contato', section: 'contact' },
   ];
-
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -49,10 +44,11 @@ export default function Header() {
             <img
               src="https://qotdwocbcoirjlqjkjhq.supabase.co/storage/v1/object/imagens.website.creation/ad5c31a2-f045-4f97-a0ab-2d4f0e6a69e7/logo_1754010053499_0.png"
               alt="Adam Yasu"
-              className="h-10 lg:h-12 w-auto"
+              className={`h-10 lg:h-12 w-auto transition-all duration-300 ${
+                isScrolled ? 'invert-0' : 'invert'
+              }`}
             />
           </motion.div>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item, index) => (
@@ -72,7 +68,6 @@ export default function Header() {
               </motion.button>
             ))}
           </div>
-
           {/* CTA Button Desktop */}
           <motion.a
             href="https://www.amazon.com.br/Peso-Desejo-pr%C3%A1tico-equilibrar-realidade-ebook/dp/B0FB6RWQTR"
@@ -84,7 +79,6 @@ export default function Header() {
           >
             Comprar Livro
           </motion.a>
-
           {/* Mobile Menu Button */}
           <motion.button
             whileTap={{ scale: 0.95 }}
@@ -102,7 +96,6 @@ export default function Header() {
             )}
           </motion.button>
         </div>
-
         {/* Mobile Menu */}
         <motion.div
           initial={{ opacity: 0, height: 0 }}
