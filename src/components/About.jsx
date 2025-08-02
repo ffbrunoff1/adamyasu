@@ -8,7 +8,7 @@ export default function About() {
       icon: BookOpen,
       title: 'Autor Especialista',
       description:
-        'Dedicado ao desenvolvimento pessoal e transformaÃ§Ã£o de vidas',
+        'Dedicado ao desenvolvimento pessoal e transformação de vidas',
     },
     {
       icon: Users,
@@ -18,7 +18,7 @@ export default function About() {
     {
       icon: Award,
       title: 'Reconhecimento',
-      description: 'AvaliaÃ§Ãµes excepcionais e feedback positivo dos leitores',
+      description: 'Avaliações excepcionais e feedback positivo dos leitores',
     },
   ];
 
@@ -42,7 +42,7 @@ export default function About() {
             className="inline-flex items-center px-4 py-2 bg-accent-100 text-accent-700 rounded-full text-sm font-medium mb-6"
           >
             <Star className="w-4 h-4 mr-2" />
-            ConheÃ§a o Autor
+            Conheça o Autor
           </motion.div>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -51,7 +51,7 @@ export default function About() {
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Um escritor dedicado a ajudar pessoas a transformarem suas vidas
-            atravÃ©s do autoconhecimento e desenvolvimento pessoal.
+            através do autoconhecimento e desenvolvimento pessoal.
           </p>
         </motion.div>
 
@@ -93,28 +93,28 @@ export default function About() {
           >
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-900">
-                Uma jornada de transformaÃ§Ã£o pessoal
+                Uma jornada de transformação pessoal
               </h3>
 
               <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  Adam Yasu Ã© um escritor apaixonado por desenvolvimento pessoal
-                  e transformaÃ§Ã£o humana. Com uma abordagem Ãºnica e prÃ¡tica, ele
+                  Adam Yasu é um escritor apaixonado por desenvolvimento pessoal
+                  e transformação humana. Com uma abordagem única e prática, ele
                   dedica sua carreira a ajudar pessoas a descobrirem seu
                   verdadeiro potencial.
                 </p>
 
                 <p>
-                  AtravÃ©s de sua obra "O Peso do Desejo", Adam compartilha
+                  Através de sua obra "O Peso do Desejo", Adam compartilha
                   insights profundos sobre como equilibrar a vida e criar a
                   realidade que verdadeiramente desejamos, baseando-se em anos
-                  de estudo e experiÃªncia pessoal.
+                  de estudo e experiência pessoal.
                 </p>
 
                 <p>
-                  Sua missÃ£o Ã© clara: inspirar e capacitar indivÃ­duos a
+                  Sua missão é clara: inspirar e capacitar indivíduos a
                   transformarem seus sonhos em realidade, oferecendo ferramentas
-                  prÃ¡ticas para o autoconhecimento e crescimento pessoal.
+                  práticas para o autoconhecimento e crescimento pessoal.
                 </p>
               </div>
             </div>
@@ -128,8 +128,8 @@ export default function About() {
             >
               <Quote className="absolute top-4 right-4 w-8 h-8 text-accent-300" />
               <p className="text-lg italic text-gray-700 leading-relaxed">
-                "A transformaÃ§Ã£o real acontece quando alinhamos nossos desejos
-                mais profundos com aÃ§Ãµes conscientes e direcionadas."
+                "A transformação real acontece quando alinhamos nossos desejos
+                mais profundos com ações conscientes e direcionadas."
               </p>
               <cite className="block mt-4 text-accent-700 font-medium not-italic">
                 - Adam Yasu
@@ -182,13 +182,13 @@ export default function About() {
             <div className="relative z-10">
               <Heart className="w-12 h-12 text-accent-400 mx-auto mb-6" />
               <h3 className="text-3xl lg:text-4xl font-bold mb-6">
-                MissÃ£o de Transformar Vidas
+                Missão de Transformar Vidas
               </h3>
               <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
                 Acredito que cada pessoa tem o potencial de criar a vida dos
-                seus sonhos. Meu objetivo Ã© fornecer as ferramentas e insights
-                necessÃ¡rios para que vocÃª descubra esse potencial e o transforme
-                em realidade tangÃ­vel.
+                seus sonhos. Meu objetivo é fornecer as ferramentas e insights
+                necessários para que você descubra esse potencial e o transforme
+                em realidade tangível.
               </p>
             </div>
           </div>
