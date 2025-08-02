@@ -97,7 +97,7 @@ export default function Hero() {
               className="text-xl text-gray-300 leading-relaxed"
             >
               Aprenda como equilibrar a vida a seu favor e criar a realidade
-              que deseja. Um guia prátitico para transformação pessoal e conquista
+              que deseja. Um guia prÃ¡tico para transformaÃ§Ã£o pessoal e conquista
               dos seus sonhos mais profundos.
             </motion.p>
 
@@ -113,7 +113,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-accent text-white font-semibold rounded-full shadow-2xl hover:shadow-accent-500/25 transition-all duration-300 group"
+                className="inline-flex items-center justify-center px-8 py-4 bg-stone-200 text-gray-900 font-semibold rounded-full shadow-2xl hover:bg-stone-300 transition-all duration-300 group"
               >
                 Comprar na Amazon
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
