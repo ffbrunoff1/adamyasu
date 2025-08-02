@@ -15,33 +15,33 @@ export default function Services() {
   const bookFeatures = [
     {
       icon: Target,
-      title: 'Clareza de PropÃ³sito',
+      title: 'Clareza de Propósito',
       description: 'Descubra seus verdadeiros desejos e objetivos de vida',
     },
     {
       icon: Zap,
-      title: 'TransformaÃ§Ã£o PrÃ¡tica',
-      description: 'Ferramentas concretas para mudanÃ§as reais e duradouras',
+      title: 'Transformação Prática',
+      description: 'Ferramentas concretas para mudanças reais e duradouras',
     },
     {
       icon: Heart,
-      title: 'EquilÃ­brio Emocional',
-      description: 'Aprenda a harmonizar emoÃ§Ãµes e razÃ£o em suas decisÃµes',
+      title: 'Equilíbrio Emocional',
+      description: 'Aprenda a harmonizar emoções e razão em suas decisões',
     },
     {
       icon: Star,
-      title: 'RealizaÃ§Ã£o Pessoal',
+      title: 'Realização Pessoal',
       description: 'Construa a realidade que verdadeiramente deseja viver',
     },
   ];
 
   const benefits = [
     'Autoconhecimento profundo e transformador',
-    'TÃ©cnicas prÃ¡ticas de desenvolvimento pessoal',
-    'EstratÃ©gias para superar limitaÃ§Ãµes mentais',
-    'MÃ©todos para criar metas alinhadas com seus valores',
-    'Ferramentas para manter a motivaÃ§Ã£o consistente',
-    'Guia completo para transformaÃ§Ã£o de vida',
+    'Técnicas práticas de desenvolvimento pessoal',
+    'Estratégias para superar limitações mentais',
+    'Métodos para criar metas alinhadas com seus valores',
+    'Ferramentas para manter a motivação consistente',
+    'Guia completo para transformação de vida',
   ];
 
   return (
@@ -61,7 +61,7 @@ export default function Services() {
             className="inline-flex items-center px-4 py-2 bg-accent-100 text-accent-700 rounded-full text-sm font-medium mb-6"
           >
             <BookOpen className="w-4 h-4 mr-2" />
-            Livro DisponÃ­vel
+            Livro Disponível
           </motion.div>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -119,18 +119,18 @@ export default function Services() {
               </h3>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                "O Peso do Desejo" Ã© um serviÃ§o especializado em desenvolvimento
-                pessoal que auxilia indivÃ­duos a identificar e alcanÃ§ar suas
+                "O Peso do Desejo" é um serviço especializado em desenvolvimento
+                pessoal que auxilia indivíduos a identificar e alcançar suas
                 metas mais profundas. Com abordagens personalizadas, oferecemos
-                tÃ©cnicas que ajudam no reconhecimento de desejos internos,
-                proporcionando clareza e motivaÃ§Ã£o para a transformaÃ§Ã£o
+                técnicas que ajudam no reconhecimento de desejos internos,
+                proporcionando clareza e motivação para a transformação
                 positiva.
               </p>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                Nossos especialistas estÃ£o preparados para guiar vocÃª em uma
+                Nossos especialistas estão preparados para guiar você em uma
                 jornada de autodescoberta, entendendo e ressignificando seus
-                anseios de maneira eficaz. Alcance o equilÃ­brio entre o que vocÃª
+                anseios de maneira eficaz. Alcance o equilíbrio entre o que você
                 deseja e o que realmente precisa, transformando sonhos em
                 realidade.
               </p>
@@ -170,7 +170,7 @@ export default function Services() {
           className="mb-20"
         >
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            O que vocÃª vai descobrir
+            O que você vai descobrir
           </h3>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -212,12 +212,12 @@ export default function Services() {
             <div>
               <Award className="w-12 h-12 text-accent-400 mb-6" />
               <h3 className="text-3xl lg:text-4xl font-bold mb-6">
-                BenefÃ­cios Transformadores
+                Benefícios Transformadores
               </h3>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Cada pÃ¡gina foi cuidadosamente elaborada para oferecer insights
-                prÃ¡ticos e ferramentas eficazes para sua jornada de
-                transformaÃ§Ã£o pessoal.
+                Cada página foi cuidadosamente elaborada para oferecer insights
+                práticos e ferramentas eficazes para sua jornada de
+                transformação pessoal.
               </p>
             </div>
 
@@ -256,14 +256,14 @@ export default function Services() {
             },
             {
               icon: Star,
-              number: '4.8â',
-              label: 'AvaliaÃ§Ã£o MÃ©dia',
+              number: '4.8★',
+              label: 'Avaliação Média',
               color: 'text-yellow-500',
             },
             {
               icon: Award,
               number: '95%',
-              label: 'RecomendaÃ§Ã£o',
+              label: 'Recomendação',
               color: 'text-green-600',
             },
           ].map((stat, index) => (
