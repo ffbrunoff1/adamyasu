@@ -67,20 +67,20 @@ export default function Contact() {
     {
       icon: MessageCircle,
       title: 'Converse Comigo',
-      description: 'Envie uma mensagem direta através do formulário',
-      action: 'Preencha o formulário abaixo',
+      description: 'Envie uma mensagem direta atravÃ©s do formulÃ¡rio',
+      action: 'Preencha o formulÃ¡rio abaixo',
     },
     {
       icon: Instagram,
       title: 'Instagram',
-      description: 'Acompanhe conteúdos e novidades',
+      description: 'Acompanhe conteÃºdos e novidades',
       action: 'Seguir @adamyasu',
       link: 'https://www.instagram.com/adamyasu',
     },
     {
       icon: Mail,
       title: 'Email Direto',
-      description: 'Para parcerias e colaborações',
+      description: 'Para parcerias e colaboraÃ§Ãµes',
       action: 'ffbrunoff@yahoo.com.br',
       link: 'mailto:ffbrunoff@yahoo.com.br',
     },
@@ -114,9 +114,9 @@ export default function Contact() {
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Estou sempre disponível para falar sobre desenvolvimento pessoal,
+            Estou sempre disponÃ­vel para falar sobre desenvolvimento pessoal,
             trocar ideias ou simplesmente conectar com pessoas que buscam
-            transformação.
+            transformaÃ§Ã£o.
           </p>
         </motion.div>
 
@@ -185,7 +185,7 @@ export default function Contact() {
                   Envie uma Mensagem
                 </h3>
                 <p className="text-gray-600">
-                  Responderei o mais breve possível
+                  Responderei o mais breve possÃ­vel
                 </p>
               </div>
             </div>
@@ -247,7 +247,7 @@ export default function Contact() {
                   rows={6}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-accent-500 focus:border-transparent transition-all duration-300 resize-none"
-                  placeholder="Compartilhe seus pensamentos, dúvidas ou feedback..."
+                  placeholder="Compartilhe seus pensamentos, dÃºvidas ou feedback..."
                 />
               </div>
 
@@ -313,7 +313,7 @@ export default function Contact() {
 
               <p className="text-accent-100 text-lg leading-relaxed mb-6">
                 Adoro conversar sobre desenvolvimento pessoal, compartilhar
-                experiências e ajudar pessoas em sua jornada de transformação.
+                experiÃªncias e ajudar pessoas em sua jornada de transformaÃ§Ã£o.
               </p>
 
               <div className="space-y-4">
@@ -322,9 +322,9 @@ export default function Contact() {
                     <MessageCircle className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <div className="font-medium">Resposta Rápida</div>
+                    <div className="font-medium">Resposta RÃ¡pida</div>
                     <div className="text-accent-200 text-sm">
-                      Normalmente em até 24 horas
+                      Normalmente em atÃ© 24 horas
                     </div>
                   </div>
                 </div>
@@ -334,9 +334,9 @@ export default function Contact() {
                     <Heart className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <div className="font-medium">Conversa Genuína</div>
+                    <div className="font-medium">Conversa GenuÃ­na</div>
                     <div className="text-accent-200 text-sm">
-                      Interesse real em ajudar você
+                      Interesse real em ajudar vocÃª
                     </div>
                   </div>
                 </div>
@@ -352,9 +352,9 @@ export default function Contact() {
             >
               <div className="text-4xl text-accent-500 mb-4">"</div>
               <p className="text-lg text-gray-700 italic leading-relaxed mb-4">
-                Cada conversa é uma oportunidade de crescimento mútuo. Estou
-                sempre disponível para conectar com pessoas que buscam
-                transformação real.
+                Cada conversa Ã© uma oportunidade de crescimento mÃºtuo. Estou
+                sempre disponÃ­vel para conectar com pessoas que buscam
+                transformaÃ§Ã£o real.
               </p>
               <cite className="text-accent-700 font-medium not-italic">
                 - Adam Yasu
