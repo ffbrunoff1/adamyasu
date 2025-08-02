@@ -57,9 +57,9 @@ export default function Footer() {
               </motion.div>
 
               <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
-                Dedicado a ajudar pessoas a transformarem suas vidas atravÃ©s do
-                desenvolvimento pessoal e autoconhecimento. Cada palavra Ã©
-                escrita com o propÃ³sito de inspirar e capacitar sua jornada de
+                Dedicado a ajudar pessoas a transformarem suas vidas através do
+                desenvolvimento pessoal e autoconhecimento. Cada palavra é
+                escrita com o propósito de inspirar e capacitar sua jornada de
                 crescimento.
               </p>
 
@@ -72,7 +72,7 @@ export default function Footer() {
                     O Peso do Desejo
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed">
-                    DisponÃ­vel agora na Amazon. Um guia transformador para
+                    Disponível agora na Amazon. Um guia transformador para
                     equilibrar sua vida e construir a realidade que deseja.
                   </p>
                   <motion.a
@@ -82,7 +82,7 @@ export default function Footer() {
                     whileHover={{ scale: 1.05 }}
                     className="inline-flex items-center mt-3 text-accent-400 hover:text-accent-300 transition-colors font-medium text-sm"
                   >
-                    Comprar Livro â
+                    Comprar Livro →
                   </motion.a>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="space-y-6"
             >
-              <h3 className="text-2xl font-bold">Links RÃ¡pidos</h3>
+              <h3 className="text-2xl font-bold">Links Rápidos</h3>
               <ul className="space-y-4">
                 {footerLinks.map((link, index) => (
                   <motion.li
@@ -169,10 +169,10 @@ export default function Footer() {
               <div className="mt-8 p-6 bg-gradient-accent/20 rounded-2xl border border-accent-500/20">
                 <h4 className="font-semibold text-lg mb-3 flex items-center">
                   <Heart className="w-5 h-5 mr-2 text-accent-400" />
-                  TransformaÃ§Ã£o DiÃ¡ria
+                  Transformação Diária
                 </h4>
                 <p className="text-gray-300 text-sm leading-relaxed mb-4">
-                  Acompanhe conteÃºdos sobre desenvolvimento pessoal e reflexÃµes
+                  Acompanhe conteúdos sobre desenvolvimento pessoal e reflexões
                   sobre crescimento.
                 </p>
                 <motion.a
@@ -204,7 +204,7 @@ export default function Footer() {
                 <p className="text-sm mt-1">
                   Feito com{' '}
                   <Heart className="w-4 h-4 inline text-red-500 mx-1" />
-                  para inspirar transformaÃ§Ãµes.
+                  para inspirar transformações.
                 </p>
               </motion.div>
 

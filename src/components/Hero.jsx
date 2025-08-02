@@ -96,8 +96,8 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="text-xl text-gray-300 leading-relaxed"
             >
-              Aprenda como equilibrar a vida a seu favor e criar a realidade
-              que deseja. Um guia prÃ¡tico para transformaÃ§Ã£o pessoal e conquista
+              Descubra como equilibrar a vida a seu favor e criar a realidade
+              que deseja. Um guia prático para transformação pessoal e conquista
               dos seus sonhos mais profundos.
             </motion.p>
 
@@ -138,8 +138,8 @@ export default function Hero() {
             >
               {[
                 { number: '10K+', label: 'Leitores' },
-                { number: '4.8â', label: 'AvaliaÃ§Ã£o' },
-                { number: '2024', label: 'LanÃ§amento' },
+                { number: '4.8★', label: 'Avaliação' },
+                { number: '2024', label: 'Lançamento' },
               ].map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl lg:text-3xl font-bold text-white">
