@@ -11,9 +11,14 @@ export default {
           900: '#18181b',
         },
         accent: {
-          500: '#8b5cf6',
-          600: '#7c3aed',
-          700: '#6d28d9',
+          50: '#fdf8f6',
+          100: '#f6e8d8',
+          200: '#ebd8c0',
+          300: '#e0c8a8',
+          400: '#d5b790',
+          500: '#cba778',
+          600: '#b89262',
+          700: '#a17e53',
         },
       },
       fontFamily: {
@@ -21,8 +26,8 @@ export default {
         sans: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-accent': 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
-        'gradient-text': 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #cba778 0%, #b89262 100%)',
+        'gradient-text': 'linear-gradient(135deg, #cba778 0%, #a17e53 100%)',
       },
     },
   },
